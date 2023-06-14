@@ -9,6 +9,5 @@
 CREATE TABLE Jubilaeum
 (
 KundenID INTEGER,
-AnzahlKunden INTEGER,
-PRIMARY Key(KundenID)
+PartyGroesse INTEGER
 );
