@@ -6,4 +6,6 @@
 -- Die letzten beiden Menues sollen nach Gericht-Art sortiert sein.
 
 
-SELECT Name FROM Speise ORDER BY Preis;
+SELECT Name FROM Speise ORDER BY Preis ASC;
+
+Select * FROM Speise WHERE Typ='Vorspeise' OR Typ='Getränk';
