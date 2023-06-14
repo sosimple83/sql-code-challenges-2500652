@@ -8,4 +8,6 @@
 
 SELECT Name FROM Speise ORDER BY Preis ASC;
 
-Select * FROM Speise WHERE Typ='Vorspeise' OR Typ='Getränk';
+Select * FROM Speise WHERE Typ='Vorspeise' OR Typ='Getränk' ORDER BY Typ DESC;
+
+Select * From Speise WHERE NOT Typ='Getränk' ORDER BY Typ DESC;
